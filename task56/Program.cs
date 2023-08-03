@@ -47,12 +47,6 @@ int[,] Create2DArray(int rows, int columns, int startValue, int finishValue)
     return matrix;
 }
 
-int GetInput(string text)
-{
-    Console.Write(text);
-    return Convert.ToInt32(Console.ReadLine());
-}
-
 int[,] array = Create2DArray(4, 4, 1, 9);
 Console.WriteLine("Задан массив: ");
 Print2DArray(array);
