@@ -51,8 +51,8 @@ int GetInput(string text)
 
 int rows = GetInput("Введите количество строк матриц: ");
 int columns = GetInput("Введите количество столбцов матриц: ");
-int[,] matrix1 = Create2DArray(rows, columns, 1, 4);
-int[,] matrix2 = Create2DArray(rows, columns, 1, 4);
+int[,] matrix1 = Create2DArray(rows, columns, 1, 9);
+int[,] matrix2 = Create2DArray(rows, columns, 1, 9);
 Console.WriteLine("Первая матрица:");
 Print2DArray(matrix1);
 Console.WriteLine("Вторая матрица:");
